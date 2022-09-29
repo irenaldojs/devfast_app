@@ -27,9 +27,8 @@
 .fs-welcome{
     font-size: 5rem;
 }
-
 .fs-icones{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .text-instagram {
@@ -42,4 +41,14 @@
 
 .top-pad {
     padding-top: 80px;
+}
+
+.logo-header{
+    height: 25px;
+    width: auto;
+}
+
+.logo-welcome{
+    height: 50px;
+    width: auto;
 }

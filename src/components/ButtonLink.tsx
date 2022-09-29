@@ -10,20 +10,18 @@ type Props = {
 
 function ButtonLink(props: Props) {
   return (
-    <div
-      className={`${
-        props.class ?? ""
-      } my-1 col-10 col-sm-auto d-flex justify-content-between align-items-end`}
-      style={{ minWidth: "300px" }}
+    <Button
+      className={`btn ${
+        props.btnClass ?? "btn-primary"
+      } my-1 px-2 px-sm-4 col-12 col-sm-6
+      d-flex justify-content-between align-items-center`}
+      href={props.href ?? "#"}
     >
-      <span className="text-light">{props.text ?? ""} </span>
-      <Button
-        className={`btn ${props.btnClass ?? "btn-primary"} rounded-circle`}
-        href={props.href ?? "#"}
-      >
-        <i className={`bi ${props.iconClass ?? "bi-discord"} p-1`}></i>
-      </Button>
-    </div>
+      <span className="text-light fs-6 fw-lighter text-uppercase">
+        {props.text ?? ""}{" "}
+      </span>
+      <i className={`bi ${props.iconClass ?? "bi-discord"} fs-icones`}></i>
+    </Button>
   );
 }
 

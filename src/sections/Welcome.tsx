@@ -4,7 +4,7 @@ function Welcome() {
   return (
     <Section class="px-2">
       <div
-        className="p-2 col-12 col-sm-5 mt-sm-5 pe-sm-5"
+        className="p-2 col-12 col-sm-5 mt-0 mt-sm-5 pe-sm-5"
         style={{ marginTop: "80px" }}
       >
         <h1 className="text-dark text-opacity-75 fw-bold mb-5 text-center">
@@ -22,14 +22,17 @@ function Welcome() {
           </p>
         </div>
       </div>
-      <div className="col-12 col-sm-3">
+      <div className="col-12 col-sm-3 mt-0 mt-sm-5">
         <figure className="w-100 d-flex justify-content-center">
           <img src={Logo} alt="Logo" className="w-50" />
         </figure>
-        <div className="fw-bold fs-welcome d-flex justify-content-center">
-          <span className="light-blue">Dev</span>
-          <span className="dark-blue">Fast</span>
-        </div>
+        <figure className="fw-bold fs-welcome d-flex justify-content-center">
+          <img
+            src="./assets/logoDevFast.png"
+            alt="title"
+            className="logo-welcome"
+          />
+        </figure>
       </div>
     </Section>
   );

@@ -6,17 +6,18 @@ import Navbar from "react-bootstrap/Navbar";
 function Header() {
   return (
     <header>
-      <Navbar
-        bg="light"
-        expand="lg"
-        fixed="top"
-        color="primary"
-        className="px-2 px-sm-5"
-      >
+      <Navbar bg="light" expand="lg" color="primary" className="px-2 px-sm-5">
         <Container fluid>
-          <Navbar.Brand href="#root" className="fs-1 p-0 fw-bolder me-5">
-            <span className="light-blue">Dev</span>
-            <span className="dark-blue">Fast</span>
+          <Navbar.Brand
+            href="#root"
+            className="me-5 d-flex align-items-center"
+            style={{ height: "60px" }}
+          >
+            <img
+              src="./assets/logoDevFast.png"
+              alt=""
+              className="logo-header"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand" />
           <Navbar.Collapse

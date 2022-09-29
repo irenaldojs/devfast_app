@@ -12,7 +12,7 @@ function CardCustom(props: Props) {
   return (
     <a
       id={props.id}
-      className="col-12 col-sm-4 m-3 text-decoration-none top-pad"
+      className="col-12 col-sm-4 m-3 text-decoration-none"
       href={props.href}
     >
       <Card>

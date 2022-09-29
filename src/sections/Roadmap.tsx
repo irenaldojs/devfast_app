@@ -3,7 +3,7 @@ import Section from "../components/Section";
 
 function Roadmap() {
   return (
-    <Section class="px-3">
+    <Section>
       <h1 className="col-12 text-center text-dark text-opacity-75">
         Trilha React
       </h1>

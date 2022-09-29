@@ -3,7 +3,7 @@ import Section from "../components/Section";
 
 function Bonus() {
   return (
-    <Section id="extras" class="px-3 top-pad">
+    <Section id="extras">
       <h1 className="col-12 text-center text-dark text-opacity-75">Extras</h1>
       <CardCustom
         title="Extra 1 - Git e Github para iniciantes"
